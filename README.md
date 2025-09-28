@@ -15,7 +15,7 @@
 
 ---
 
-## 1. Embedding Model & Preprocessing (5%)
+## 1. Embedding Model & Preprocessing 
 
 **使用的詞嵌入模型**  
 - 預訓練模型：GloVe（`glove-wiki-gigaword-300`）  
@@ -36,7 +36,7 @@
 
 ---
 
-## 2. Performance on Different Sampling Ratios (10%)
+## 2. Performance on Different Sampling Ratios 
 
 **抽樣資料**  
 - 5% → 281,253 篇文章  
@@ -52,7 +52,7 @@
 
 ---
 
-## 3. Corpus Comparison (15%)
+## 3. Corpus Comparison 
 
 ### 3.1 Results
 | 語料 | 描述 | 準確率 | 詞彙覆蓋率 | 訓練時間 |
@@ -82,7 +82,7 @@
 
 ---
 
-## 4. Word Similarity Results (10%)
+## 4. Word Similarity Results 
 
 ### 例子：Top-5 相似詞
 - **king** → queen, prince, monarch, royal, kingdom  
@@ -98,13 +98,9 @@
 
 ---
 
-## 5. Suggestions for Strengthening Report (5%)
+## 5. Suggestions for Strengthening Report 
 
 - **更多指標**：Precision/Recall/F1-score  
 - **視覺化**：學習曲線、混淆矩陣、詞彙覆蓋熱圖  
 - **可解釋性**：注意力分布、PCA 維度分析  
 - **對比模型**：與 BERT、GPT 等上下文嵌入比較  
-
----
-
-📌 *This README is a summary of NLP HW1 report.*
